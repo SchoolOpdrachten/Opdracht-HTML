@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
-    font-family: Irish Grover, Helvetica , Arial, sans-serif;
+    font-family: 'Irish Grover', Helvetica , Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -12,10 +12,6 @@ header {
     background-color: rgb(43, 43, 43);
     margin: 0px;
     padding: 0px;
-}
-
-nav {
-    
 }
 
 button {
@@ -27,10 +23,10 @@ button {
 }
 
 .feature-box {
-    display: flex;
+    /* display: flex; */
     background-color: #6F0000;
     border-radius: 15px;
-    height: 350px;
+    /* height: 350px; */
     margin: 5% 10%;
     padding: 20px;
 }
@@ -39,10 +35,26 @@ button {
     margin: auto;
     padding: 20px;
 }
+nav {
+    display:flex;
+}
 
+nav h1 {
+    flex: 1;
+}
+nav ul {
+    display: flex;
+    /* margin: 10px 30px 30px 30px; */
+    flex:2;
+    justify-content: space-around;
+    justify-items: left;
+    height: 100%;
+    align-items: center;
+}
 nav ul li {
-    display: inline-block;
-    margin: 10px 30px 30px 30px;
+    flex:1;
+    list-style: none;
+    text-align: center;
 }
 
 a {
@@ -52,4 +64,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.ticket-box {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    width: 100%;
+}
+.ticket-teller {
+    background-color:tomato;
+}
+.flexbox-item
+{
+    flex:1;
 }
