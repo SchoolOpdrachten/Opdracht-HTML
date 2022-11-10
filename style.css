@@ -14,27 +14,6 @@ header {
     padding: 0px;
 }
 
-button {
-    background-color: #FF8A00;
-    color: black;
-    border: none;
-    border-radius: 20%;
-    padding: 10px
-}
-
-.feature-box {
-    /* display: flex; */
-    background-color: #6F0000;
-    border-radius: 15px;
-    /* height: 350px; */
-    margin: 5% 10%;
-    padding: 20px;
-}
-
-.feature-box div {
-    margin: auto;
-    padding: 20px;
-}
 nav {
     display:flex;
 }
@@ -56,6 +35,35 @@ nav ul li {
     list-style: none;
     text-align: center;
 }
+
+button {
+    background-color: #FF8A00;
+    color: black;
+    border: none;
+    border-radius: 20%;
+    padding: 10px
+}
+
+.feature-box {
+    /* display: flex; */
+    background-color: #6F0000;
+    border-radius: 15px;
+    /* height: 350px; */
+    margin: 5% 10%;
+    padding: 20px;
+}
+
+.text-with-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+
+
 
 a {
     color: white;
