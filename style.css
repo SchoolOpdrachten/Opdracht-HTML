@@ -1,9 +1,13 @@
+:root {
+    --featureRed: #6F0000;
+}
+
 body {
     background-image: url("/images/HalloweenBackground.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
-    font-family: 'Irish Grover', Helvetica , Arial, sans-serif;
+    font-family: 'Irish Grover', Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -15,23 +19,25 @@ header {
 }
 
 nav {
-    display:flex;
+    display: flex;
 }
 
 nav h1 {
     flex: 1;
 }
+
 nav ul {
     display: flex;
     /* margin: 10px 30px 30px 30px; */
-    flex:2;
+    flex: 2;
     justify-content: space-around;
     justify-items: left;
     height: 100%;
     align-items: center;
 }
+
 nav ul li {
-    flex:1;
+    flex: 1;
     list-style: none;
     text-align: center;
 }
@@ -62,9 +68,6 @@ button {
     align-items: center;
 }
 
-
-
-
 a {
     color: white;
     text-decoration: none;
@@ -78,12 +81,47 @@ a:hover {
     display: flex;
     background-color: gray;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
+
 .ticket-teller {
-    background-color:tomato;
+    background-color: tomato;
+    text-align: center;
+    border: black solid 1px;
 }
-.flexbox-item
-{
-    flex:1;
+
+.flex-item {
+    flex: 1;
+    padding: 0% 10%;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: tomato;
+    border-radius: 15px;
+    margin: 5% 10%;
+    padding: 20px;
+}
+
+.calendar-row {
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.calendar-item {
+    background-color: var(--featureRed);
+    border-radius: 0px;
+    color: white;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
