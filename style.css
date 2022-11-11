@@ -51,7 +51,6 @@ button {
 }
 
 .feature-box {
-    /* display: flex; */
     background-color: #6F0000;
     border-radius: 15px;
     /* height: 350px; */
@@ -83,6 +82,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin: 5px;
 }
 
 .ticket-teller {
@@ -95,25 +95,26 @@ a:hover {
     flex: 1;
     padding: 0% 10%;
 }
+.flex-box {
+    display: flex;
+    width: 100%;
+}
 
 .calendar {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: tomato;
     border-radius: 15px;
-    margin: 5% 10%;
+    margin: 5% auto;
     padding: 20px;
 }
 
 .calendar-row {
     background-color: gold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    height: 70px;
     width: 100%;
+    padding: 5px 0px;
 }
 
 .calendar-item {
@@ -121,7 +122,18 @@ a:hover {
     border-radius: 0px;
     color: white;
     margin: 5px;
-    width: 100%;
+    width: 150px;
     height: 100%;
     text-align: center;
+}
+.calender-menu {
+    display: flex;
+    margin: 0px 0px 20px 0px;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.buy-ticket {
+    flex: 1;
+    padding: 50px;
 }
