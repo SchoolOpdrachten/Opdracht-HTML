@@ -49,6 +49,12 @@ button {
     border-radius: 20%;
     padding: 10px
 }
+button:hover {
+    background-color: #be6600;
+}
+button:active{
+    background-color: #8b4a00;
+}
 
 .feature-box {
     background-color: #6F0000;
@@ -61,10 +67,10 @@ button {
 .text-with-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     margin: 0px;
     padding: 0px;
     align-items: center;
+
 }
 
 a {
@@ -90,10 +96,17 @@ a:hover {
     text-align: center;
     border: black solid 1px;
 }
+.ticket-teller button {
+    margin: 0px 20px;
+}
+
+.totaalBedrag {
+    text-align: right;
+}
 
 .flex-item {
     flex: 1;
-    padding: 0% 10%;
+    align-content: center;
 }
 .flex-box {
     display: flex;
